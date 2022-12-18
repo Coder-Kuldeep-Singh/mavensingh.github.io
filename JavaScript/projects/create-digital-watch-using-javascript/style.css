@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+body {
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-family: 'Bungee Shade', cursive;
+    letter-spacing: 0.1em;
+}
+
+#digitalClock {
+    font-size: 5px;
+    margin-top: -5px;
+    text-align: center;
+    font-family: 'Diplomata SC', cursive;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+span {
+    font-size: 5px;
+}
