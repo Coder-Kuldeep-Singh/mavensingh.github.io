@@ -8,7 +8,7 @@ body {
 }
 
 #digitalClock {
-    font-size: 5px;
+    /* font-size: 20px; */
     margin-top: -5px;
     text-align: center;
     font-family: 'Diplomata SC', cursive;
@@ -20,10 +20,12 @@ body {
     justify-content: center;
 }
 
-h1 {
-    font-size: 15px;
-}
 
-span {
+/* h1 {
+    font-size: 15px;
+} */
+
+
+/* span {
     font-size: 5px;
-}
+} */
