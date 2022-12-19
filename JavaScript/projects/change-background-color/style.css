@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+body {
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-family: 'Bungee Shade', cursive;
+    letter-spacing: 0.1em;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: -30px;
+}
+
+span {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Diplomata SC', cursive;
+}
+
+#userColor {
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+
+#submit {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
