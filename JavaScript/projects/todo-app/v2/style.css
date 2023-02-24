@@ -1,0 +1,66 @@
+body {
+    font-family: "Fira Code", "Arial Black";
+    text-align: center;
+    background: #151f5b;
+    color: #fff7ff;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    width: 60%;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: left;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #2cd1ff;
+    width: 50%;
+    border-radius: 5px;
+}
+
+li span {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+li button {
+    margin-left: 20px;
+    padding: 7px;
+    width: 60px;
+    border: none;
+    background-color: #9f064a;
+    color: #fff;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}

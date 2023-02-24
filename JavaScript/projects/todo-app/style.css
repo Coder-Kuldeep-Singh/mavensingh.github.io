@@ -1,0 +1,36 @@
+body {
+    font-family: "Fira Code", "Arial Black";
+    text-align: center;
+    background: #151f5b;
+    color: #fff7ff;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+
+    padding: 8px;
+    border: 1px solid #2cd1ff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
