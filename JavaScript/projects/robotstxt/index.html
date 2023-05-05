@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Robots.txt Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Robots.txt Generator</h1>
+    <form>
+        <div class="form-group">
+            <label for="user-agent">User-agent:</label>
+            <input type="text" id="user-agent" name="user-agent" placeholder="*" required>
+        </div>
+        <div class="form-group" id="allow-group">
+            <label for="allow">Allow:</label>
+            <input type="text" class="allow-path" name="allow[]" placeholder="/" required>
+            <button type="button" class="add-path" onclick="addPath('allow')">+</button>
+        </div>
+        <div class="form-group" id="disallow-group">
+            <label for="disallow">Disallow:</label>
+            <input type="text" class="disallow-path" name="disallow[]" placeholder="">
+            <button type="button" class="add-path" onclick="addPath('disallow')">+</button>
+        </div>
+        <div class="form-group">
+            <label for="crawl-delay">Crawl-delay:</label>
+            <input type="number" id="crawl-delay" name="crawl-delay" placeholder="0">
+        </div>
+        <div class="form-group">
+            <label for="sitemap">Sitemap:</label>
+            <input type="text" id="sitemap" name="sitemap" placeholder="">
+        </div>
+        <button type="button" onclick="generateRobotsTxt()">Generate robots.txt</button>
+    </form>
+    <textarea id="generated-robots-txt"></textarea>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
